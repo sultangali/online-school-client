@@ -163,7 +163,7 @@ export const LessonDetail = () => {
               <div className="lesson-video ">
                 <h3>Сабақ видео бейнесі:</h3>
                 <video width="auto" className='w-100' style={{ border: '1px solid gray', height: '730px' }} controls>
-                  <source src={`http://localhost:5000${lesson.videoUrl}`} type="video/mp4" />
+                  <source src={`http://34.116.228.89${lesson.videoUrl}`} type="video/mp4" />
                   Сіздің браузеріңіз видео форматын көтермейді.
                 </video>
               </div>

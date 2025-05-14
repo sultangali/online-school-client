@@ -26,7 +26,7 @@ export const LessonCard = ({ index, lesson, onDelete }) => {
                 borderBottomRightRadius: '0px'
               }} to={`/lessons/${lesson._id}`} className="btn btn-secondary">Толығырақ</Link>
               {lesson.videoUrl && (
-                <a style={{ borderRadius: '0px' }} href={`http://localhost:5000${lesson.videoUrl}`} target="_blank" rel="noopener noreferrer" className="btn btn-info">Бейне</a>
+                <a style={{ borderRadius: '0px' }} href={`http://34.116.228.89${lesson.videoUrl}`} target="_blank" rel="noopener noreferrer" className="btn btn-info">Бейне</a>
               )}
               {/* Отображение действий только для учителей и админов */}
               {(localStorage.getItem('role') !== 'teacher' || localStorage.getItem('role') === 'admin') && (

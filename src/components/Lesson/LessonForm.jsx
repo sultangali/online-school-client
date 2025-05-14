@@ -268,7 +268,7 @@ export const LessonForm = ({ onSubmit, initialData }) => {
           {formData.videoUrl && (
             <div className="mt-2 uploadedvideo-div">
               <video className=" w-100" width="auto" height="auto" controls>
-                <source src={`http://localhost:5000${formData.videoUrl}`} type="video/mp4" />
+                <source src={`http://34.116.228.89${formData.videoUrl}`} type="video/mp4" />
                 Ваш браузер не поддерживает видео тег.
               </video>
             </div>

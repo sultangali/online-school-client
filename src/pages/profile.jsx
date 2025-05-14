@@ -156,7 +156,7 @@ const Profile = () => {
             color: color,
             desc: lesson.description || "Сабақ туралы мәлімет жоқ",
             location: lesson.videoUrl
-              ? `http://localhost:5173${lesson.videoUrl}`
+              ? `http://34.116.228.89${lesson.videoUrl}`
               : "Место проведения отсутствует.",
             scheduleId: schedule._id,
             lessonId: lesson._id,
@@ -329,7 +329,7 @@ const Profile = () => {
                       onClick={() => inputFileRef.current.click()}
                       src={
                         userData && userData.avatar
-                          ? `http://localhost:5000${userData.avatar}`
+                          ? `http://34.116.228.89${userData.avatar}`
                           : alt
                       }
                       alt="Мына жерде сурет туру керек"
